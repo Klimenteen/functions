@@ -14,10 +14,11 @@
 
 **Пример использования**
 
-    ```javascript
-    convertToLowerOrUpperCase(['lower', 'upper'], 'upper'); // ['LOWER', 'UPPER']
-    convertToLowerOrUpperCase(['LOWER', 'UPPER'], 'lower'); // ['lower', 'upper']
-    ```
+```javascript
+convertToLowerOrUpperCase(['lower','upper'], 'upper'); // ['LOWER','UPPER']
+convertToLowerOrUpperCase(['LOWER','UPPER'], 'lower'); // ['lower','upper']
+
+```
 
 ### Задание №2
 
@@ -27,10 +28,10 @@
 
 **Пример использования**
 
-    ```javascript
-    convertToFilteredLowerOrUpperCase(['lower', 'upper'], 'upper'); // ['LOWER', 'UPPER']
-    convertToFilteredLowerOrUpperCase(['LOWER', {a: 123}, 'UPPER'], 'lower'); // ['lower', 'upper']
-    ```
+```javascript
+convertToFilteredLowerOrUpperCas(['lower', 'upper'], 'upper'); //['LOWER', 'UPPER']
+convertToFilteredLowerOrUpperCas(['LOWER', {a: 123}, 'UPPER'],'lower'); // ['lower', 'upper']
+```
 
 ### Задание №3
 
@@ -38,15 +39,15 @@
 
 **Пример использования**
 
-    ```javascript
-    const users = [
-        { name: 'Alice', age: 25 },
-        { name: 'Bob', age: 17 },
-        { name: 'Charlie', age: 30 },
-        { name: 'David', age: 16 },
-    ];
-    filterUsersByAge(users); // [{ name: 'Alice', age: 25 }, { name: 'Charlie', age: 30 }]
-    ```
+```javascript
+const users = [
+    { name: 'Alice', age: 25 },
+    { name: 'Bob', age: 17 },
+    { name: 'Charlie', age: 30 },
+    { name: 'David', age: 16 },
+];
+filterUsersByAge(users); // [{name: 'Alice', age: 25 }, { name:'Charlie', age: 30 }]
+```
 
 ### Задание №4
 
@@ -54,16 +55,16 @@
 
 **Пример использования**
 
-    ```javascript
-    const users = [
-        { name: 'Alice', age: 25, capableOfMarathon: true },
-        { name: 'Bob', age: 17, capableOfMarathon: false },
-        { name: 'Charlie', age: 30, capableOfMarathon: false },
-        { name: 'David', age: 16, capableOfMarathon: true },
-    ];
-    filterUsersByParam(users, 'age', 18, '>'); // [{ name: 'Alice', age: 25 }, { name: 'Charlie', age: 30 }]
-    filterUsersByParam(users, 'capableOfMarathon', true); // [{ name: 'Alice', age: 25 }, { name: 'David', age: 16, capableOfMarathon: true }]
-    ```
+```javascript
+const users = [
+    { name: 'Alice', age: 25, capableOfMarathon: true },
+    { name: 'Bob', age: 17, capableOfMarathon: false },
+    { name: 'Charlie', age: 30, capableOfMarathon: false },
+    { name: 'David', age: 16, capableOfMarathon: true },
+];
+filterUsersByParam(users, 'age', 18, '>'); // [{ name: 'Alice', age: 25 }, { name:'Charlie', age: 30 }]
+filterUsersByParam(users, 'capableOfMarathon', true); // [{ name: 'Alice', age: 25 }, {name: 'David', age: 16, capableOfMarathon: true }]
+```
 
 ### Задание №5
 
@@ -71,7 +72,7 @@
 
 **Пример использования**
 
-    ```javascript
-    divisibleAverage([3, 6, 9, 12, 15]); // 9
-    divisibleAverage([0, -1, 10, 20, 30, 40, 50]); // 15
-    ```
+ ```javascript
+ divisibleAverage([3, 6, 9, 12, 15]); // 9
+ divisibleAverage([0, -1, 10, 20, 30, 40, 50]); // 15
+ ```
